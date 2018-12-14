@@ -59,12 +59,12 @@ class ViewController: UIViewController {
 ```
 
 # Support
-- [x] CALayer
-- [x] UIView
-- [x] UILabel
-- [x] UIButton
-- [x] UIImageView
-- [x] UISwitch
+- ✅ CALayer
+- ✅ UIView
+- ✅ UILabel
+- ✅ UIButton
+- ✅ UIImageView
+- ✅ UISwitch
 
  
 # Contributing
