@@ -35,6 +35,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Apply style
         sampleView.applyStyle
             .backgroundColor(.red)
