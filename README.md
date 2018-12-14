@@ -4,20 +4,35 @@
 [![License](https://img.shields.io/cocoapods/l/ApplyStyleKit.svg?style=flat)](http://cocoapods.org/pods/ApplyStyleKit)
 [![Platform](https://img.shields.io/cocoapods/p/ApplyStyleKit.svg?style=flat)](http://cocoapods.org/pods/ApplyStyleKit)
 
-You can apply design style comfortably, using Swifty Method Chain.
+ApplyStyleKit is a library that applies styles to UIKit using Swifty Method Chain.
 
-# Installation
-## Requirements
+Normally, when applying styles to UIView etc.,it is necessary to write propertyName and equal operator many times.
+
+With ApplyStyleKit, you can comfortably apply style to your code.
+
+Like this:
+```swift
+    sampleLabel.applyStyle
+        .backgroundColor(.yellow)
+        .text("sample label")
+        .textAlignment(.center)
+        .textColor(.green)
+        .font(.boldSystemFont(ofSize: 30.0))
+        .numberOfLines(0)
+```
+
+## Installation
+### Requirements
 - iOS 9.0 or later
 - Swift 4.2
 - Xcode 10
 
-## Carthage
+### Carthage
 ```
   github "shindyu/ApplyStyleKit"
 ```
 
-## CocoaPods
+### CocoaPods
 ```
 target '<Your Target Name>' do
   pod 'ApplyStyleKit', '~> 0.1.0'
@@ -58,7 +73,7 @@ class ViewController: UIViewController {
 }
 ```
 
-# Support
+## Support
 - ✅ CALayer
 - ✅ UIView
 - ✅ UILabel
@@ -67,10 +82,10 @@ class ViewController: UIViewController {
 - ✅ UISwitch
 
  
-# Contributing
+## Contributing
 Please make an issue or pull request if you have any request.
 
-Bug reports, Documentation, or tests, are always welcome as well.😂
+Bug reports, Documentation, or tests, are always welcome as well!😂
 
-# License
+## License
 ApplyStyleKit is available as open source under the terms of the [MIT](https://github.com/shindyu/ApplyStyleKit/blob/master/LICENSE) License.
