@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ApplyStyleKit.svg?style=flat)](http://cocoapods.org/pods/ApplyStyleKit)
 [![Platform](https://img.shields.io/cocoapods/p/ApplyStyleKit.svg?style=flat)](http://cocoapods.org/pods/ApplyStyleKit)
 
+You can apply design style comfortably, using Swifty Method Chain.
+
 # Installation
 ## Requirements
 - iOS 9.0 or later
@@ -27,28 +29,32 @@ end
 ```swift
 import ApplyStyleKit
 
-let sampleView = UIView()
-let sampleLabel = CustomLabel()
+class ViewController: UIViewController {
+    let sampleView = UIView()
+    let sampleLabel = CustomLabel()
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Apply style
+        sampleView.applyStyle
+            .backgroundColor(.red)
+            .alpha(0.5)
 
-// Apply style
-sampleView.applyStyle
-    .backgroundColor(.red)
-    .alpha(0.5)
+        // When applying to layer
+        sampleView.layer.applyStyle
+            .cornerRadius(10)
+            .borderColor(.gray)
+            .borderWidth(2)
 
-// When applying to layer
-sampleView.layer.applyStyle
-    .cornerRadius(10)
-    .borderColor(.gray)
-    .borderWidth(2)
-
-// Of course, you can apply it if you inherit UIView etc.
-sampleLabel.applyStyle
-    .text("Of course, you can apply it if you inherit UIView etc.")
-    .textAlignment(.center)
-    .textColor(.green)
-    .font(.boldSystemFont(ofSize: 30.0))
-    .numberOfLines(0)
+        // Of course, you can apply it if you inherit UIView etc.
+        sampleLabel.applyStyle
+            .text("Of course, you can apply it if you inherit UIView etc.")
+            .textAlignment(.center)
+            .textColor(.green)
+            .font(.boldSystemFont(ofSize: 30.0))
+            .numberOfLines(0)
+    }
+}
 ```
 
 # Support
