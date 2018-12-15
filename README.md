@@ -1,3 +1,7 @@
+<div align="center" >
+  <img width="70%" src="image/logo.png" />
+</div>
+
 # ApplyStyleKit
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/ApplyStyleKit.svg?style=flat)](https://cocoapods.org/pods/ApplyStyleKit)
