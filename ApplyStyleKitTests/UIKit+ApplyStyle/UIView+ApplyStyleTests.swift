@@ -17,6 +17,135 @@ class UIView_ApplyStyleTests: XCTestCase {
         view = UIView()
     }
 
+    func test_isUserInteractionEnabled() {
+        XCTContext.runActivity(named: "true") { _ in
+            let isUserInteractionEnabled = true
+
+            view.applyStyle.isUserInteractionEnabled(isUserInteractionEnabled)
+
+            XCTAssertEqual(view.isUserInteractionEnabled, isUserInteractionEnabled)
+        }
+        XCTContext.runActivity(named: "false") { _ in
+            let isUserInteractionEnabled = false
+
+            view.applyStyle.isUserInteractionEnabled(isUserInteractionEnabled)
+
+            XCTAssertEqual(view.isUserInteractionEnabled, isUserInteractionEnabled)
+        }
+    }
+
+    func test_tag() {
+        let tag: Int = 2
+
+        view.applyStyle.tag(tag)
+
+        XCTAssertEqual(view.tag, tag)
+    }
+
+    func test_semanticContentAttribute() {
+        let semanticContentAttribute: UISemanticContentAttribute = .forceRightToLeft
+
+        view.applyStyle.semanticContentAttribute(semanticContentAttribute)
+
+        XCTAssertEqual(view.semanticContentAttribute, semanticContentAttribute)
+    }
+
+    func test_frame() {
+        let frame: CGRect = .init(x: 1.0, y: 2.0, width: 3.0, height: 4.0)
+
+        view.applyStyle.frame(frame)
+
+        XCTAssertEqual(view.frame, frame)
+    }
+
+    func test_bounds() {
+        let bounds: CGRect = .init(x: 1.0, y: 2.0, width: 3.0, height: 4.0)
+
+        view.applyStyle.bounds(bounds)
+
+        XCTAssertEqual(view.bounds, bounds)
+    }
+
+    func test_center() {
+        let center: CGPoint = .init(x: 1.0, y: 2.0)
+
+        view.applyStyle.center(center)
+
+        XCTAssertEqual(view.center, center)
+    }
+
+    func test_contentScaleFactor(){
+        let contentScaleFactor:CGFloat = 2.0
+
+        view.applyStyle.contentScaleFactor(contentScaleFactor)
+
+        XCTAssertEqual(view.contentScaleFactor, contentScaleFactor)
+    }
+
+    func test_isMultipleTouchEnabled(){
+        XCTContext.runActivity(named: "true") { _ in
+            let isMultipleTouchEnabled = true
+
+            view.applyStyle.isMultipleTouchEnabled(isMultipleTouchEnabled)
+
+            XCTAssertEqual(view.isMultipleTouchEnabled, isMultipleTouchEnabled)
+        }
+        XCTContext.runActivity(named: "false") { _ in
+            let isMultipleTouchEnabled = false
+
+            view.applyStyle.isMultipleTouchEnabled(isMultipleTouchEnabled)
+
+            XCTAssertEqual(view.isMultipleTouchEnabled, isMultipleTouchEnabled)
+        }
+    }
+
+    func test_isExclusiveTouch(){
+        XCTContext.runActivity(named: "true") { _ in
+            let isExclusiveTouch = true
+
+            view.applyStyle.isExclusiveTouch(isExclusiveTouch)
+
+            XCTAssertEqual(view.isExclusiveTouch, isExclusiveTouch)
+        }
+        XCTContext.runActivity(named: "false") { _ in
+            let isExclusiveTouch = false
+
+            view.applyStyle.isExclusiveTouch(isExclusiveTouch)
+
+            XCTAssertEqual(view.isExclusiveTouch, isExclusiveTouch)
+        }
+    }
+
+    func test_autoresizesSubviews(){
+        XCTContext.runActivity(named: "true") { _ in
+            let autoresizesSubviews = true
+
+            view.applyStyle.autoresizesSubviews(autoresizesSubviews)
+
+            XCTAssertEqual(view.autoresizesSubviews, autoresizesSubviews)
+        }
+        XCTContext.runActivity(named: "false") { _ in
+            let autoresizesSubviews = false
+
+            view.applyStyle.autoresizesSubviews(autoresizesSubviews)
+
+            XCTAssertEqual(view.autoresizesSubviews, autoresizesSubviews)
+        }
+    }
+
+    func test_autoresizingMask(){
+        let autoresizingMask: UIView.AutoresizingMask = .flexibleHeight
+
+        view.applyStyle.autoresizingMask(autoresizingMask)
+
+        XCTAssertEqual(view.autoresizingMask, autoresizingMask)
+    }
+
+    func test_sizeToFit(){
+//        view.applyStyle.sizeToFit()
+//        XCTAssertEqual(view.sizeToFit())
+    }
+
     func test_transform() {
         let transform = CGAffineTransform(scaleX: 2.0, y: 3.0)
 
