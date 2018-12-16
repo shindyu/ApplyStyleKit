@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
+		516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */; };
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
 		518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */; };
 		518F391B21C3F18B00D6D903 /* ApplyStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplyStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplyStyleKit.h; sourceTree = "<group>"; };
 		518F390E21C3F18B00D6D903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		516AB57621C5CBA20026052C /* UIKit+ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */,
+				516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */,
+			);
+			path = "UIKit+ApplyStyle";
+			sourceTree = "<group>";
+		};
 		518F390021C3F18B00D6D903 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */,
+				516AB57621C5CBA20026052C /* UIKit+ApplyStyle */,
 				518F391A21C3F18B00D6D903 /* Info.plist */,
 			);
 			path = ApplyStyleKitTests;
@@ -323,6 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */,
+				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
+				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
