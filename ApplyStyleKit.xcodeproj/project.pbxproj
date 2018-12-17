@@ -91,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		175D80AE21C763800008DADD /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
 		516AB57621C5CBA20026052C /* UIKit+ApplyStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +132,7 @@
 		518F390C21C3F18B00D6D903 /* ApplyStyleKit */ = {
 			isa = PBXGroup;
 			children = (
+				175D80AE21C763800008DADD /* QuartzCore */,
 				51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */,
 				51C715FA21C3FA7400110ABA /* ApplyStyle */,
 				518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */,
@@ -153,7 +162,6 @@
 		51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */ = {
 			isa = PBXGroup;
 			children = (
-				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
 				51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */,
 				51C7160421C3FB3700110ABA /* UIImageView+ApplyStyle.swift */,
 				51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */,
