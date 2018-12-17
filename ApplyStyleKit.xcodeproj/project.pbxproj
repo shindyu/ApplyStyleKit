@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */; };
 		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
 		516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */; };
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
 		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplyStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +159,7 @@
 				51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */,
 				51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */,
 				51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */,
+				175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
 				51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */,
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
+				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
 				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
