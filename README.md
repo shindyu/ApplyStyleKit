@@ -79,11 +79,15 @@ class ViewController: UIViewController {
 ```
 
 ## Support
+QuartzCore
 - ✅ CALayer
+
+UIKit
 - ✅ UIView
 - ✅ UILabel
 - ✅ UIButton
 - ✅ UIImageView
+- ✅ UISwitch
 - ✅ UISwitch
 
  
