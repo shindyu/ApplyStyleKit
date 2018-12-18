@@ -2,7 +2,7 @@
 //  UIControl+ApplyStyle.swift
 //  ApplyStyleKit
 //
-//  Created by 新堂 敬隆 on 2018/12/17.
+//  Created by shindyu on 2018/12/17.
 //  Copyright © 2018年 shindyu. All rights reserved.
 //
 

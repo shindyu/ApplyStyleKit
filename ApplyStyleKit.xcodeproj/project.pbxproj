@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */; };
+		5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */; };
+		5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */; };
 		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
 		516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */; };
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
+		5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplyStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,12 +95,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		175D80AE21C763800008DADD /* QuartzCore */ = {
+		175D80AE21C763800008DADD /* QuartzCore+ApplyStyle */ = {
 			isa = PBXGroup;
 			children = (
 				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
 			);
-			path = QuartzCore;
+			path = "QuartzCore+ApplyStyle";
 			sourceTree = "<group>";
 		};
 		516AB57621C5CBA20026052C /* UIKit+ApplyStyle */ = {
@@ -104,6 +108,7 @@
 			children = (
 				516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */,
 				516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */,
+				5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -132,7 +137,7 @@
 		518F390C21C3F18B00D6D903 /* ApplyStyleKit */ = {
 			isa = PBXGroup;
 			children = (
-				175D80AE21C763800008DADD /* QuartzCore */,
+				175D80AE21C763800008DADD /* QuartzCore+ApplyStyle */,
 				51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */,
 				51C715FA21C3FA7400110ABA /* ApplyStyle */,
 				518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */,
@@ -167,6 +172,7 @@
 				51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */,
 				51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */,
 				51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */,
+				5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */,
 				175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
@@ -338,6 +344,7 @@
 				51C7160921C3FB3700110ABA /* UIView+ApplyStyle.swift in Sources */,
 				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
 				51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */,
+				5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */,
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
 				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
 				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
@@ -348,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */,
 				518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */,
 				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
 				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,

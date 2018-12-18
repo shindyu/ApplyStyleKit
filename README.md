@@ -88,7 +88,8 @@ UIKit
 - ✅ UIButton
 - ✅ UIImageView
 - ✅ UISwitch
-- ✅ UISwitch
+- ✅ UIControl
+- ✅ UIStackView
 
  
 ## Contributing
