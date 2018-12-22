@@ -84,7 +84,7 @@ You can also create your own applyStyleMethod.
 To be able to define the extension, the access modifier of `base` which is a property of `StyleObject` is public.
 
 example:
-```
+```swift
 extension StyleObject where Base: UIView {
     @discardableResult func specialStyle() -> StyleObject {
         base.backgroundColor = .red
