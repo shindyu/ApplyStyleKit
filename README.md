@@ -78,6 +78,22 @@ class ViewController: UIViewController {
 }
 ```
 
+### Advanced
+You can also create your own applyStyleMethod.
+
+To be able to define the extension, the access modifier of `base` which is a property of `StyleObject` is public.
+
+example:
+```
+extension StyleObject where Base: UIView {
+    @discardableResult func specialStyle() -> StyleObject {
+        base.backgroundColor = .red
+        base.layer.cornerRadius = 10
+        return self
+    }
+}
+```
+
 ## Support
 QuartzCore
 - ✅ CALayer
@@ -93,6 +109,10 @@ UIKit
 - ✅ UISlider
 - ✅ UITableView
 - ✅ UICollectionView
+
+## Basic policy
+ApplyStyleKit intends to target methods with no return value and properties with setter.
+Due to the nature of ApplyStyleKit, I think that returning types other than StyleObject should be avoided.
  
 ## Contributing
 Please make an issue or pull request if you have any request.
