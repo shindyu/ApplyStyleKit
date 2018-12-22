@@ -91,6 +91,8 @@ UIKit
 - ✅ UIControl
 - ✅ UIStackView
 - ✅ UISlider
+- ✅ UITableView
+- ✅ UICollectionView
  
 ## Contributing
 Please make an issue or pull request if you have any request.

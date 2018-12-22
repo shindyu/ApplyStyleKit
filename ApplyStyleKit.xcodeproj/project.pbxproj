@@ -11,6 +11,10 @@
 		51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */; };
 		51399CFF21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */; };
 		51399D0221CDC4DF00574BDB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0121CDC4DF00574BDB /* UIImage+.swift */; };
+		51399D0421CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */; };
+		51399D0621CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */; };
+		51399D0821CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */; };
+		51399D0A21CDDD9A00574BDB /* UITableView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */; };
 		5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */; };
 		5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */; };
 		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
@@ -48,6 +52,10 @@
 		51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		51399D0121CDC4DF00574BDB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyle.swift"; sourceTree = "<group>"; };
 		5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyle.swift"; sourceTree = "<group>"; };
 		5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
@@ -124,6 +132,8 @@
 				516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */,
 				5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */,
 				51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */,
+				51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */,
+				51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -191,6 +201,8 @@
 				5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */,
 				175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */,
 				51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */,
+				51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */,
+				51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -362,6 +374,8 @@
 				51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */,
 				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
 				51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */,
+				51399D0A21CDDD9A00574BDB /* UITableView+ApplyStyle.swift in Sources */,
+				51399D0421CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift in Sources */,
 				5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */,
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
 				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
@@ -378,6 +392,8 @@
 				518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */,
 				51399D0221CDC4DF00574BDB /* UIImage+.swift in Sources */,
 				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
+				51399D0621CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift in Sources */,
+				51399D0821CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift in Sources */,
 				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
