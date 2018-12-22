@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         	= "ApplyStyleKit"
-  s.version      	= "0.1.3"
+  s.version      	= "0.1.4"
   s.summary      	= "You can apply design style comfortably, using Swifty Method Chain."
   s.description  	= <<-DESC
                     ApplyStyleKit is a library that applies styles to UIKit using Swifty Method Chain.

@@ -90,7 +90,7 @@ UIKit
 - ✅ UISwitch
 - ✅ UIControl
 - ✅ UIStackView
-
+- ✅ UISlider
  
 ## Contributing
 Please make an issue or pull request if you have any request.
