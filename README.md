@@ -40,7 +40,7 @@ Like this:
 ### CocoaPods
 ```
 target '<Your Target Name>' do
-  pod 'ApplyStyleKit', '~> 0.1.0'
+  pod 'ApplyStyleKit'
 end
 ```
 
