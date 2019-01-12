@@ -78,6 +78,124 @@ extension StyleObject where Base: UIView {
         return self
     }
 
+    @discardableResult public func addSubview(_ view: UIView) -> StyleObject {
+        base.addSubview(view)
+        return self
+    }
+
+    @discardableResult public func insertSubview(_ view: UIView, belowSubview siblingSubview: UIView) -> StyleObject {
+        base.insertSubview(view, belowSubview: siblingSubview)
+        return self
+    }
+
+    @discardableResult public func insertSubview(_ view: UIView, aboveSubview siblingSubview: UIView) -> StyleObject {
+        base.insertSubview(view, aboveSubview: siblingSubview)
+        return self
+    }
+
+    @discardableResult public func bringSubviewToFront(_ view: UIView) -> StyleObject {
+        base.bringSubviewToFront(view)
+        return self
+    }
+
+    @discardableResult public func sendSubviewToBack(_ view: UIView) -> StyleObject {
+        base.sendSubviewToBack(view)
+        return self
+    }
+    
+    @discardableResult public func didAddSubview(_ subview: UIView) -> StyleObject {
+        base.didAddSubview(subview)
+        return self
+    }
+
+    @discardableResult public func willRemoveSubview(_ subview: UIView) -> StyleObject {
+        base.willRemoveSubview(subview)
+        return self
+    }
+
+    @discardableResult public func willMove(toSuperview newSuperview: UIView?) -> StyleObject {
+        base.willMove(toSuperview: newSuperview)
+        return self
+    }
+
+    @discardableResult public func didMoveToSuperview() -> StyleObject {
+        base.didMoveToSuperview()
+        return self
+    }
+
+    @discardableResult public func willMove(toWindow newWindow: UIWindow?) -> StyleObject {
+        base.willMove(toWindow: newWindow)
+        return self
+    }
+
+    @discardableResult public func didMoveToWindow() -> StyleObject {
+        base.didMoveToWindow()
+        return self
+    }
+
+    @discardableResult public func setNeedsLayout() -> StyleObject {
+        base.setNeedsLayout()
+        return self
+    }
+
+    @discardableResult public func layoutIfNeeded() -> StyleObject {
+        base.layoutIfNeeded()
+        return self
+    }
+
+    @discardableResult public func layoutSubviews() -> StyleObject {
+        base.layoutSubviews()
+        return self
+    }
+
+    @discardableResult public func layoutMargins(_ edgeInsets: UIEdgeInsets) -> StyleObject {
+        base.layoutMargins = edgeInsets
+        return self
+    }
+
+    @available(iOS 11.0, *)
+    @discardableResult public func directionalLayoutMargins(_ edgeInsets: NSDirectionalEdgeInsets) -> StyleObject {
+        base.directionalLayoutMargins = edgeInsets
+        return self
+    }
+
+    @discardableResult public func preservesSuperviewLayoutMargins(_ enabled: Bool) -> StyleObject {
+        base.preservesSuperviewLayoutMargins = enabled
+        return self
+    }
+
+    @available(iOS 11.0, *)
+    @discardableResult public func insetsLayoutMarginsFromSafeArea(_ enabled: Bool) -> StyleObject {
+        base.insetsLayoutMarginsFromSafeArea = enabled
+        return self
+    }
+
+    @discardableResult public func layoutMarginsDidChange() -> StyleObject {
+        base.layoutMarginsDidChange()
+        return self
+    }
+
+    @available(iOS 11.0, *)
+    @discardableResult public func safeAreaInsetsDidChange() -> StyleObject {
+        base.safeAreaInsetsDidChange()
+        return self
+    }
+
+    @discardableResult public func draw(_ rect: CGRect) -> StyleObject {
+        base.draw(rect)
+        return self
+    }
+
+    @discardableResult public func setNeedsDisplay() -> StyleObject {
+        base.setNeedsDisplay()
+        return self
+    }
+
+    @discardableResult public func setNeedsDisplay(_ rect: CGRect) -> StyleObject {
+        base.setNeedsDisplay(rect)
+        return self
+    }
+
     @discardableResult public func clipsToBounds(_ clipsToBounds: Bool) -> StyleObject {
         base.clipsToBounds = clipsToBounds
         return self
