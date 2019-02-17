@@ -241,3 +241,70 @@ extension StyleObject where Base: UIView {
         return self
     }
 }
+
+// MARK: - Frame Size -
+
+extension StyleObject where Base: UIView {
+    @discardableResult public func frameSize(width: CGFloat, height: CGFloat) -> StyleObject {
+        base.frame.size = CGSize(width: width, height: height)
+        return self
+    }
+
+    @discardableResult public func frameSize(_ size: CGSize) -> StyleObject {
+        base.frame.size = size
+        return self
+    }
+
+    @discardableResult public func frameWidth(_ width: CGFloat) -> StyleObject {
+        base.frame.size.width = width
+        return self
+    }
+
+    @discardableResult public func frameHeight(_ height: CGFloat) -> StyleObject {
+        base.frame.size.height = height
+        return self
+    }
+}
+
+// MARK: - Frame Origin -
+
+extension StyleObject where Base: UIView {
+    @discardableResult public func frameOrigin(x: CGFloat, y: CGFloat) -> StyleObject {
+        base.frame.origin = CGPoint(x: x, y: y)
+        return self
+    }
+
+    @discardableResult public func frameOrigin(_ point: CGPoint) -> StyleObject {
+        base.frame.origin = point
+        return self
+    }
+
+    @discardableResult public func frameOriginX(_ originX: CGFloat) -> StyleObject {
+        base.frame.origin.x = originX
+        return self
+    }
+
+    @discardableResult public func frameOriginY(_ originY: CGFloat) -> StyleObject {
+        base.frame.origin.y = originY
+        return self
+    }
+}
+
+// MARK: - Center -
+
+extension StyleObject where Base: UIView {
+    @discardableResult public func center(x: CGFloat, y: CGFloat) -> StyleObject {
+        base.center = CGPoint(x: x, y: y)
+        return self
+    }
+
+    @discardableResult public func centerX(_ centerX: CGFloat) -> StyleObject {
+        base.center.x = centerX
+        return self
+    }
+
+    @discardableResult public func centerY(_ centerY: CGFloat) -> StyleObject {
+        base.center.y = centerY
+        return self
+    }
+}

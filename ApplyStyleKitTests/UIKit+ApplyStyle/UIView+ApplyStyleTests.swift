@@ -254,4 +254,91 @@ class UIView_ApplyStyleTests: XCTestCase {
         XCTAssertEqual(view.tintAdjustmentMode, tintAdjustmentMode)
     }
 
+    func test_frameSize() {
+        let size = CGSize(width: 1, height: 1)
+
+        view.applyStyle.frameSize(size)
+
+        XCTAssertEqual(view.frame.size, size)
+    }
+
+    func test_frameSizeConvenience() {
+        let size = CGSize(width: 1, height: 1)
+
+        view.applyStyle.frameSize(width: size.width, height: size.height)
+
+        XCTAssertEqual(view.frame.size, size)
+    }
+
+    func test_frameWidth() {
+        let width: CGFloat = 1
+
+        view.applyStyle.frameWidth(width)
+
+        XCTAssertEqual(view.frame.size.width, width)
+    }
+
+    func test_frameHeight() {
+        let height: CGFloat = 1
+
+        view.applyStyle.frameHeight(height)
+
+        XCTAssertEqual(view.frame.size.height, height)
+    }
+
+    func test_frameOrigin() {
+        let origin = CGPoint(x: 1, y: 1)
+
+        view.applyStyle.frameOrigin(origin)
+
+        XCTAssertEqual(view.frame.origin, origin)
+    }
+
+    func test_frameOriginConvenience() {
+        let origin = CGPoint(x: 1, y: 1)
+
+        view.applyStyle.frameOrigin(x: origin.x, y: origin.y)
+
+        XCTAssertEqual(view.frame.origin, origin)
+    }
+
+    func test_frameOriginX() {
+        let x: CGFloat = 1
+
+        view.applyStyle.frameOriginX(x)
+
+        XCTAssertEqual(view.frame.origin.x, x)
+    }
+
+    func test_frameOriginY() {
+        let y: CGFloat = 1
+
+        view.applyStyle.frameOriginY(y)
+
+        XCTAssertEqual(view.frame.origin.y, y)
+    }
+
+    func test_centerConvenience() {
+        let center = CGPoint(x: 1, y: 1)
+
+        view.applyStyle.center(x: center.x, y: center.y)
+
+        XCTAssertEqual(view.center, center)
+    }
+
+    func test_centerX() {
+        let x: CGFloat = 1
+
+        view.applyStyle.centerX(x)
+
+        XCTAssertEqual(view.center.x, x)
+    }
+
+    func test_centerY() {
+        let y: CGFloat = 1
+
+        view.applyStyle.centerY(y)
+
+        XCTAssertEqual(view.center.y, y)
+    }
 }
