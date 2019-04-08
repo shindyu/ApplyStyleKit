@@ -22,6 +22,8 @@
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
 		518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */; };
 		518F391B21C3F18B00D6D903 /* ApplyStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C6EF43225B98E9007E58EC /* UITextField+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */; };
+		51C6EF45225B9944007E58EC /* UITextField+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */; };
 		51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C715FE21C3FAD700110ABA /* ApplyStyle.swift */; };
 		51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */; };
 		51C7160721C3FB3700110ABA /* UIButton+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */; };
@@ -66,6 +68,8 @@
 		518F391321C3F18B00D6D903 /* ApplyStyleKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplyStyleKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyStyleKitTests.swift; sourceTree = "<group>"; };
 		518F391A21C3F18B00D6D903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51C715FE21C3FAD700110ABA /* ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyStyle.swift; sourceTree = "<group>"; };
 		51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ApplyStyle.swift"; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 				51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */,
 				51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */,
 				51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */,
+				51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */,
 				51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */,
 				51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */,
+				51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -379,6 +385,7 @@
 				5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */,
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
 				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
+				51C6EF45225B9944007E58EC /* UITextField+ApplyStyle.swift in Sources */,
 				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +401,7 @@
 				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
 				51399D0621CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift in Sources */,
 				51399D0821CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift in Sources */,
+				51C6EF43225B98E9007E58EC /* UITextField+ApplyStyleTests.swift in Sources */,
 				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
