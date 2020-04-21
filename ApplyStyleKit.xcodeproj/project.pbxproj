@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */; };
+		190C0442244E938F00399B5C /* UIScrollView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C0441244E938F00399B5C /* UIScrollView+ApplyStyle.swift */; };
 		51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */; };
 		51399CFF21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */; };
 		51399D0221CDC4DF00574BDB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0121CDC4DF00574BDB /* UIImage+.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
+		190C0441244E938F00399B5C /* UIScrollView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		51399D0121CDC4DF00574BDB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */,
 				51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */,
 				51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */,
+				190C0441244E938F00399B5C /* UIScrollView+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			files = (
 				51C7160721C3FB3700110ABA /* UIButton+ApplyStyle.swift in Sources */,
 				51C7160A21C3FB3700110ABA /* UIImageView+ApplyStyle.swift in Sources */,
+				190C0442244E938F00399B5C /* UIScrollView+ApplyStyle.swift in Sources */,
 				51C7160921C3FB3700110ABA /* UIView+ApplyStyle.swift in Sources */,
 				51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */,
 				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
