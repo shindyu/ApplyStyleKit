@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */; };
-		51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */; };
-		51399CFF21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */; };
-		51399D0221CDC4DF00574BDB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0121CDC4DF00574BDB /* UIImage+.swift */; };
-		51399D0421CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */; };
-		51399D0621CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */; };
-		51399D0821CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */; };
-		51399D0A21CDDD9A00574BDB /* UITableView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */; };
-		5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */; };
-		5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */; };
-		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
-		516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */; };
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
-		518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */; };
-		518F391B21C3F18B00D6D903 /* ApplyStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51C6EF43225B98E9007E58EC /* UITextField+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */; };
-		51C6EF45225B9944007E58EC /* UITextField+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */; };
-		51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C715FE21C3FAD700110ABA /* ApplyStyle.swift */; };
-		51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */; };
-		51C7160721C3FB3700110ABA /* UIButton+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */; };
-		51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */; };
-		51C7160921C3FB3700110ABA /* UIView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */; };
-		51C7160A21C3FB3700110ABA /* UIImageView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160421C3FB3700110ABA /* UIImageView+ApplyStyle.swift */; };
-		51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */; };
 		51C7163721C3FD0900110ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7163621C3FD0900110ABA /* AppDelegate.swift */; };
 		51C7163921C3FD0900110ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7163821C3FD0900110ABA /* ViewController.swift */; };
 		51C7163C21C3FD0900110ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C7163A21C3FD0900110ABA /* Main.storyboard */; };
 		51C7163E21C3FD0A00110ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C7163D21C3FD0A00110ABA /* Assets.xcassets */; };
 		51C7164121C3FD0A00110ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C7163F21C3FD0A00110ABA /* LaunchScreen.storyboard */; };
 		51C7165521C3FD8300110ABA /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
+		B7E98CF9291BBC4600652D77 /* ApplyStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E98CD9291BBC4500652D77 /* ApplyStyleKit.h */; };
+		B7E98CFA291BBC4600652D77 /* ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CDB291BBC4500652D77 /* ApplyStyle.swift */; };
+		B7E98CFB291BBC4600652D77 /* UITextField+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CDD291BBC4500652D77 /* UITextField+ApplyStyle.swift */; };
+		B7E98CFC291BBC4600652D77 /* UICollectionView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CDE291BBC4500652D77 /* UICollectionView+ApplyStyle.swift */; };
+		B7E98CFD291BBC4600652D77 /* UILabel+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CDF291BBC4500652D77 /* UILabel+ApplyStyle.swift */; };
+		B7E98CFE291BBC4600652D77 /* UIStackView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE0291BBC4500652D77 /* UIStackView+ApplyStyle.swift */; };
+		B7E98CFF291BBC4600652D77 /* UITableView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE1291BBC4500652D77 /* UITableView+ApplyStyle.swift */; };
+		B7E98D00291BBC4600652D77 /* UISwitch+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE2291BBC4500652D77 /* UISwitch+ApplyStyle.swift */; };
+		B7E98D01291BBC4600652D77 /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE3291BBC4500652D77 /* UIControl+ApplyStyle.swift */; };
+		B7E98D02291BBC4600652D77 /* UIView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE4291BBC4500652D77 /* UIView+ApplyStyle.swift */; };
+		B7E98D03291BBC4600652D77 /* UIButton+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE5291BBC4500652D77 /* UIButton+ApplyStyle.swift */; };
+		B7E98D04291BBC4600652D77 /* UISlider+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE6291BBC4500652D77 /* UISlider+ApplyStyle.swift */; };
+		B7E98D05291BBC4600652D77 /* UIImageView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE7291BBC4500652D77 /* UIImageView+ApplyStyle.swift */; };
+		B7E98D06291BBC4600652D77 /* CALayer+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */; };
+		B7E98D07291BBC4600652D77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E98CEA291BBC4500652D77 /* Info.plist */; };
+		B7E98D08291BBC4600652D77 /* ApplyStyleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */; };
+		B7E98D09291BBC4600652D77 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CEF291BBC4500652D77 /* UIImage+.swift */; };
+		B7E98D0A291BBC4600652D77 /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */; };
+		B7E98D0B291BBC4600652D77 /* UITextField+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */; };
+		B7E98D0C291BBC4600652D77 /* UICollectionView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */; };
+		B7E98D0D291BBC4600652D77 /* UISlider+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */; };
+		B7E98D0E291BBC4600652D77 /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */; };
+		B7E98D0F291BBC4600652D77 /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */; };
+		B7E98D10291BBC4600652D77 /* UITableView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */; };
+		B7E98D11291BBC4600652D77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E98CF8291BBC4500652D77 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,33 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		51399D0121CDC4DF00574BDB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
-		51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyle.swift"; sourceTree = "<group>"; };
-		5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyle.swift"; sourceTree = "<group>"; };
-		5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplyStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplyStyleKit.h; sourceTree = "<group>"; };
-		518F390E21C3F18B00D6D903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518F391321C3F18B00D6D903 /* ApplyStyleKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplyStyleKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyStyleKitTests.swift; sourceTree = "<group>"; };
-		518F391A21C3F18B00D6D903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C715FE21C3FAD700110ABA /* ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyStyle.swift; sourceTree = "<group>"; };
-		51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C7160421C3FB3700110ABA /* UIImageView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ApplyStyle.swift"; sourceTree = "<group>"; };
-		51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+ApplyStyle.swift"; sourceTree = "<group>"; };
 		51C7163421C3FD0900110ABA /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C7163621C3FD0900110ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C7163821C3FD0900110ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +61,31 @@
 		51C7163D21C3FD0A00110ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C7164021C3FD0A00110ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C7164221C3FD0A00110ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E98CD9291BBC4500652D77 /* ApplyStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyStyleKit.h; sourceTree = "<group>"; };
+		B7E98CDB291BBC4500652D77 /* ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyStyle.swift; sourceTree = "<group>"; };
+		B7E98CDD291BBC4500652D77 /* UITextField+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CDE291BBC4500652D77 /* UICollectionView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CDF291BBC4500652D77 /* UILabel+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE0291BBC4500652D77 /* UIStackView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE1291BBC4500652D77 /* UITableView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE2291BBC4500652D77 /* UISwitch+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE3291BBC4500652D77 /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE4291BBC4500652D77 /* UIView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE5291BBC4500652D77 /* UIButton+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE6291BBC4500652D77 /* UISlider+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE7291BBC4500652D77 /* UIImageView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+ApplyStyle.swift"; sourceTree = "<group>"; };
+		B7E98CEA291BBC4500652D77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyStyleKitTests.swift; sourceTree = "<group>"; };
+		B7E98CEF291BBC4500652D77 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
+		B7E98CF8291BBC4500652D77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,41 +115,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		175D80AE21C763800008DADD /* QuartzCore+ApplyStyle */ = {
-			isa = PBXGroup;
-			children = (
-				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
-			);
-			path = "QuartzCore+ApplyStyle";
-			sourceTree = "<group>";
-		};
-		51399D0021CDC4C900574BDB /* ExtensionForTests */ = {
-			isa = PBXGroup;
-			children = (
-				51399D0121CDC4DF00574BDB /* UIImage+.swift */,
-			);
-			path = ExtensionForTests;
-			sourceTree = "<group>";
-		};
-		516AB57621C5CBA20026052C /* UIKit+ApplyStyle */ = {
-			isa = PBXGroup;
-			children = (
-				516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */,
-				516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */,
-				5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */,
-				51399CFE21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift */,
-				51399D0521CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift */,
-				51399D0721CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift */,
-				51C6EF42225B98E9007E58EC /* UITextField+ApplyStyleTests.swift */,
-			);
-			path = "UIKit+ApplyStyle";
-			sourceTree = "<group>";
-		};
 		518F390021C3F18B00D6D903 = {
 			isa = PBXGroup;
 			children = (
-				518F390C21C3F18B00D6D903 /* ApplyStyleKit */,
-				518F391721C3F18B00D6D903 /* ApplyStyleKitTests */,
+				B7E98CD7291BBC4500652D77 /* Sources */,
+				B7E98CEB291BBC4500652D77 /* Tests */,
 				51C7163521C3FD0900110ABA /* Example */,
 				518F390B21C3F18B00D6D903 /* Products */,
 				51C7165421C3FD8300110ABA /* Frameworks */,
@@ -162,55 +134,6 @@
 				51C7163421C3FD0900110ABA /* Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		518F390C21C3F18B00D6D903 /* ApplyStyleKit */ = {
-			isa = PBXGroup;
-			children = (
-				175D80AE21C763800008DADD /* QuartzCore+ApplyStyle */,
-				51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */,
-				51C715FA21C3FA7400110ABA /* ApplyStyle */,
-				518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */,
-				518F390E21C3F18B00D6D903 /* Info.plist */,
-			);
-			path = ApplyStyleKit;
-			sourceTree = "<group>";
-		};
-		518F391721C3F18B00D6D903 /* ApplyStyleKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				518F391821C3F18B00D6D903 /* ApplyStyleKitTests.swift */,
-				51399D0021CDC4C900574BDB /* ExtensionForTests */,
-				516AB57621C5CBA20026052C /* UIKit+ApplyStyle */,
-				518F391A21C3F18B00D6D903 /* Info.plist */,
-			);
-			path = ApplyStyleKitTests;
-			sourceTree = "<group>";
-		};
-		51C715FA21C3FA7400110ABA /* ApplyStyle */ = {
-			isa = PBXGroup;
-			children = (
-				51C715FE21C3FAD700110ABA /* ApplyStyle.swift */,
-			);
-			path = ApplyStyle;
-			sourceTree = "<group>";
-		};
-		51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */ = {
-			isa = PBXGroup;
-			children = (
-				51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */,
-				51C7160421C3FB3700110ABA /* UIImageView+ApplyStyle.swift */,
-				51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */,
-				51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */,
-				51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */,
-				5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */,
-				175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */,
-				51399CFC21CDBEE800574BDB /* UISlider+ApplyStyle.swift */,
-				51399D0321CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift */,
-				51399D0921CDDD9A00574BDB /* UITableView+ApplyStyle.swift */,
-				51C6EF44225B9944007E58EC /* UITextField+ApplyStyle.swift */,
-			);
-			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
 		};
 		51C7163521C3FD0900110ABA /* Example */ = {
@@ -233,6 +156,101 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B7E98CD7291BBC4500652D77 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CD8291BBC4500652D77 /* ApplyStyleKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B7E98CD8291BBC4500652D77 /* ApplyStyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CD9291BBC4500652D77 /* ApplyStyleKit.h */,
+				B7E98CDA291BBC4500652D77 /* ApplyStyle */,
+				B7E98CDC291BBC4500652D77 /* UIKit+ApplyStyle */,
+				B7E98CE8291BBC4500652D77 /* QuartzCore+ApplyStyle */,
+				B7E98CEA291BBC4500652D77 /* Info.plist */,
+			);
+			path = ApplyStyleKit;
+			sourceTree = "<group>";
+		};
+		B7E98CDA291BBC4500652D77 /* ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CDB291BBC4500652D77 /* ApplyStyle.swift */,
+			);
+			path = ApplyStyle;
+			sourceTree = "<group>";
+		};
+		B7E98CDC291BBC4500652D77 /* UIKit+ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CDD291BBC4500652D77 /* UITextField+ApplyStyle.swift */,
+				B7E98CDE291BBC4500652D77 /* UICollectionView+ApplyStyle.swift */,
+				B7E98CDF291BBC4500652D77 /* UILabel+ApplyStyle.swift */,
+				B7E98CE0291BBC4500652D77 /* UIStackView+ApplyStyle.swift */,
+				B7E98CE1291BBC4500652D77 /* UITableView+ApplyStyle.swift */,
+				B7E98CE2291BBC4500652D77 /* UISwitch+ApplyStyle.swift */,
+				B7E98CE3291BBC4500652D77 /* UIControl+ApplyStyle.swift */,
+				B7E98CE4291BBC4500652D77 /* UIView+ApplyStyle.swift */,
+				B7E98CE5291BBC4500652D77 /* UIButton+ApplyStyle.swift */,
+				B7E98CE6291BBC4500652D77 /* UISlider+ApplyStyle.swift */,
+				B7E98CE7291BBC4500652D77 /* UIImageView+ApplyStyle.swift */,
+			);
+			path = "UIKit+ApplyStyle";
+			sourceTree = "<group>";
+		};
+		B7E98CE8291BBC4500652D77 /* QuartzCore+ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */,
+			);
+			path = "QuartzCore+ApplyStyle";
+			sourceTree = "<group>";
+		};
+		B7E98CEB291BBC4500652D77 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CEC291BBC4500652D77 /* ApplyStyleKitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B7E98CEC291BBC4500652D77 /* ApplyStyleKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */,
+				B7E98CEE291BBC4500652D77 /* ExtensionForTests */,
+				B7E98CF0291BBC4500652D77 /* UIKit+ApplyStyle */,
+				B7E98CF8291BBC4500652D77 /* Info.plist */,
+			);
+			path = ApplyStyleKitTests;
+			sourceTree = "<group>";
+		};
+		B7E98CEE291BBC4500652D77 /* ExtensionForTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CEF291BBC4500652D77 /* UIImage+.swift */,
+			);
+			path = ExtensionForTests;
+			sourceTree = "<group>";
+		};
+		B7E98CF0291BBC4500652D77 /* UIKit+ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */,
+				B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */,
+				B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */,
+				B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */,
+				B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */,
+				B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */,
+				B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */,
+			);
+			path = "UIKit+ApplyStyle";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,7 +258,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518F391B21C3F18B00D6D903 /* ApplyStyleKit.h in Headers */,
+				B7E98CF9291BBC4600652D77 /* ApplyStyleKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +365,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E98D11291BBC4600652D77 /* Info.plist in Resources */,
+				B7E98D07291BBC4600652D77 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,19 +394,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51C7160721C3FB3700110ABA /* UIButton+ApplyStyle.swift in Sources */,
-				51C7160A21C3FB3700110ABA /* UIImageView+ApplyStyle.swift in Sources */,
-				51C7160921C3FB3700110ABA /* UIView+ApplyStyle.swift in Sources */,
-				51399CFD21CDBEE800574BDB /* UISlider+ApplyStyle.swift in Sources */,
-				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
-				51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */,
-				51399D0A21CDDD9A00574BDB /* UITableView+ApplyStyle.swift in Sources */,
-				51399D0421CDDC9B00574BDB /* UICollectionView+ApplyStyle.swift in Sources */,
-				5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */,
-				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
-				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
-				51C6EF45225B9944007E58EC /* UITextField+ApplyStyle.swift in Sources */,
-				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
+				B7E98D03291BBC4600652D77 /* UIButton+ApplyStyle.swift in Sources */,
+				B7E98D0C291BBC4600652D77 /* UICollectionView+ApplyStyleTests.swift in Sources */,
+				B7E98D08291BBC4600652D77 /* ApplyStyleKitTests.swift in Sources */,
+				B7E98CFF291BBC4600652D77 /* UITableView+ApplyStyle.swift in Sources */,
+				B7E98D02291BBC4600652D77 /* UIView+ApplyStyle.swift in Sources */,
+				B7E98D00291BBC4600652D77 /* UISwitch+ApplyStyle.swift in Sources */,
+				B7E98D0A291BBC4600652D77 /* UIView+ApplyStyleTests.swift in Sources */,
+				B7E98CFB291BBC4600652D77 /* UITextField+ApplyStyle.swift in Sources */,
+				B7E98D0F291BBC4600652D77 /* UILabel+ApplyStyleTests.swift in Sources */,
+				B7E98D05291BBC4600652D77 /* UIImageView+ApplyStyle.swift in Sources */,
+				B7E98CFE291BBC4600652D77 /* UIStackView+ApplyStyle.swift in Sources */,
+				B7E98D0D291BBC4600652D77 /* UISlider+ApplyStyleTests.swift in Sources */,
+				B7E98D10291BBC4600652D77 /* UITableView+ApplyStyleTests.swift in Sources */,
+				B7E98D0B291BBC4600652D77 /* UITextField+ApplyStyleTests.swift in Sources */,
+				B7E98CFA291BBC4600652D77 /* ApplyStyle.swift in Sources */,
+				B7E98CFC291BBC4600652D77 /* UICollectionView+ApplyStyle.swift in Sources */,
+				B7E98D06291BBC4600652D77 /* CALayer+ApplyStyle.swift in Sources */,
+				B7E98D01291BBC4600652D77 /* UIControl+ApplyStyle.swift in Sources */,
+				B7E98D0E291BBC4600652D77 /* UIStackView+ApplyStyleTests.swift in Sources */,
+				B7E98D09291BBC4600652D77 /* UIImage+.swift in Sources */,
+				B7E98CFD291BBC4600652D77 /* UILabel+ApplyStyle.swift in Sources */,
+				B7E98D04291BBC4600652D77 /* UISlider+ApplyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,15 +423,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51399CFF21CDBEFE00574BDB /* UISlider+ApplyStyleTests.swift in Sources */,
-				5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */,
-				518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */,
-				51399D0221CDC4DF00574BDB /* UIImage+.swift in Sources */,
-				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
-				51399D0621CDDCB100574BDB /* UICollectionView+ApplyStyleTests.swift in Sources */,
-				51399D0821CDDD8C00574BDB /* UITableView+ApplyStyleTests.swift in Sources */,
-				51C6EF43225B98E9007E58EC /* UITextField+ApplyStyleTests.swift in Sources */,
-				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

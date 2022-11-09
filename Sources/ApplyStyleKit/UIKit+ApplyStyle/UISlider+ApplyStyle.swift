@@ -6,7 +6,7 @@
 //  Copyright © 2018 shindyu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension StyleObject where Base: UISlider {
     @discardableResult public func value(_ value: Float) -> StyleObject {

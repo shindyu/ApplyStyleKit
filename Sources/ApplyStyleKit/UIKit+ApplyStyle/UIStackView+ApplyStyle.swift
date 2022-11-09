@@ -6,6 +6,8 @@
 //  Copyright © 2018 shindyu. All rights reserved.
 //
 
+import UIKit
+
 extension StyleObject where Base: UIStackView {
     @discardableResult public func addArrangedSubview(_ view: UIView) -> StyleObject {
         base.addArrangedSubview(view)

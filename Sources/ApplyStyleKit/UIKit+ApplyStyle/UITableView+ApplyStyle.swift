@@ -6,6 +6,8 @@
 //  Copyright © 2018 shindyu. All rights reserved.
 //
 
+import UIKit
+
 extension StyleObject where Base: UITableView {
     @discardableResult public func dataSource(_ dataSource: UITableViewDataSource?) -> StyleObject {
         base.dataSource = dataSource

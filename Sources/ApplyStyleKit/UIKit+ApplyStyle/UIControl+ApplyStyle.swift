@@ -6,7 +6,7 @@
 //  Copyright © 2018年 shindyu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension StyleObject where Base: UIControl {
     @discardableResult public func isEnabled(_ isEnabled: Bool) -> StyleObject {

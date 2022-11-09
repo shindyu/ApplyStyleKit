@@ -6,7 +6,7 @@
 //  Copyright © 2018 shindyu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension CALayer: ApplyStyleProtocol {
     public typealias StyleCompatible = CALayer

@@ -6,6 +6,8 @@
 //  Copyright © 2018 shindyu. All rights reserved.
 //
 
+import UIKit
+
 extension StyleObject where Base: UICollectionView {
     @discardableResult public func collectionViewLayout(_ layout: UICollectionViewLayout) -> StyleObject {
         base.collectionViewLayout = layout
