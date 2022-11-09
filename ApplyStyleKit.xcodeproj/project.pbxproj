@@ -28,17 +28,6 @@
 		B7E98D04291BBC4600652D77 /* UISlider+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE6291BBC4500652D77 /* UISlider+ApplyStyle.swift */; };
 		B7E98D05291BBC4600652D77 /* UIImageView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE7291BBC4500652D77 /* UIImageView+ApplyStyle.swift */; };
 		B7E98D06291BBC4600652D77 /* CALayer+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */; };
-		B7E98D07291BBC4600652D77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E98CEA291BBC4500652D77 /* Info.plist */; };
-		B7E98D08291BBC4600652D77 /* ApplyStyleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */; };
-		B7E98D09291BBC4600652D77 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CEF291BBC4500652D77 /* UIImage+.swift */; };
-		B7E98D0A291BBC4600652D77 /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */; };
-		B7E98D0B291BBC4600652D77 /* UITextField+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */; };
-		B7E98D0C291BBC4600652D77 /* UICollectionView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */; };
-		B7E98D0D291BBC4600652D77 /* UISlider+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */; };
-		B7E98D0E291BBC4600652D77 /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */; };
-		B7E98D0F291BBC4600652D77 /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */; };
-		B7E98D10291BBC4600652D77 /* UITableView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */; };
-		B7E98D11291BBC4600652D77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7E98CF8291BBC4500652D77 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,17 +64,6 @@
 		B7E98CE6291BBC4500652D77 /* UISlider+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyle.swift"; sourceTree = "<group>"; };
 		B7E98CE7291BBC4500652D77 /* UIImageView+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ApplyStyle.swift"; sourceTree = "<group>"; };
 		B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+ApplyStyle.swift"; sourceTree = "<group>"; };
-		B7E98CEA291BBC4500652D77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyStyleKitTests.swift; sourceTree = "<group>"; };
-		B7E98CEF291BBC4500652D77 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
-		B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
-		B7E98CF8291BBC4500652D77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				B7E98CD7291BBC4500652D77 /* Sources */,
-				B7E98CEB291BBC4500652D77 /* Tests */,
 				51C7163521C3FD0900110ABA /* Example */,
 				518F390B21C3F18B00D6D903 /* Products */,
 				51C7165421C3FD8300110ABA /* Frameworks */,
@@ -171,7 +148,6 @@
 				B7E98CDA291BBC4500652D77 /* ApplyStyle */,
 				B7E98CDC291BBC4500652D77 /* UIKit+ApplyStyle */,
 				B7E98CE8291BBC4500652D77 /* QuartzCore+ApplyStyle */,
-				B7E98CEA291BBC4500652D77 /* Info.plist */,
 			);
 			path = ApplyStyleKit;
 			sourceTree = "<group>";
@@ -208,47 +184,6 @@
 				B7E98CE9291BBC4500652D77 /* CALayer+ApplyStyle.swift */,
 			);
 			path = "QuartzCore+ApplyStyle";
-			sourceTree = "<group>";
-		};
-		B7E98CEB291BBC4500652D77 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B7E98CEC291BBC4500652D77 /* ApplyStyleKitTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		B7E98CEC291BBC4500652D77 /* ApplyStyleKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				B7E98CED291BBC4500652D77 /* ApplyStyleKitTests.swift */,
-				B7E98CEE291BBC4500652D77 /* ExtensionForTests */,
-				B7E98CF0291BBC4500652D77 /* UIKit+ApplyStyle */,
-				B7E98CF8291BBC4500652D77 /* Info.plist */,
-			);
-			path = ApplyStyleKitTests;
-			sourceTree = "<group>";
-		};
-		B7E98CEE291BBC4500652D77 /* ExtensionForTests */ = {
-			isa = PBXGroup;
-			children = (
-				B7E98CEF291BBC4500652D77 /* UIImage+.swift */,
-			);
-			path = ExtensionForTests;
-			sourceTree = "<group>";
-		};
-		B7E98CF0291BBC4500652D77 /* UIKit+ApplyStyle */ = {
-			isa = PBXGroup;
-			children = (
-				B7E98CF1291BBC4500652D77 /* UIView+ApplyStyleTests.swift */,
-				B7E98CF2291BBC4500652D77 /* UITextField+ApplyStyleTests.swift */,
-				B7E98CF3291BBC4500652D77 /* UICollectionView+ApplyStyleTests.swift */,
-				B7E98CF4291BBC4500652D77 /* UISlider+ApplyStyleTests.swift */,
-				B7E98CF5291BBC4500652D77 /* UIStackView+ApplyStyleTests.swift */,
-				B7E98CF6291BBC4500652D77 /* UILabel+ApplyStyleTests.swift */,
-				B7E98CF7291BBC4500652D77 /* UITableView+ApplyStyleTests.swift */,
-			);
-			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +300,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7E98D11291BBC4600652D77 /* Info.plist in Resources */,
-				B7E98D07291BBC4600652D77 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,25 +328,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E98D03291BBC4600652D77 /* UIButton+ApplyStyle.swift in Sources */,
-				B7E98D0C291BBC4600652D77 /* UICollectionView+ApplyStyleTests.swift in Sources */,
-				B7E98D08291BBC4600652D77 /* ApplyStyleKitTests.swift in Sources */,
 				B7E98CFF291BBC4600652D77 /* UITableView+ApplyStyle.swift in Sources */,
 				B7E98D02291BBC4600652D77 /* UIView+ApplyStyle.swift in Sources */,
 				B7E98D00291BBC4600652D77 /* UISwitch+ApplyStyle.swift in Sources */,
-				B7E98D0A291BBC4600652D77 /* UIView+ApplyStyleTests.swift in Sources */,
 				B7E98CFB291BBC4600652D77 /* UITextField+ApplyStyle.swift in Sources */,
-				B7E98D0F291BBC4600652D77 /* UILabel+ApplyStyleTests.swift in Sources */,
 				B7E98D05291BBC4600652D77 /* UIImageView+ApplyStyle.swift in Sources */,
 				B7E98CFE291BBC4600652D77 /* UIStackView+ApplyStyle.swift in Sources */,
-				B7E98D0D291BBC4600652D77 /* UISlider+ApplyStyleTests.swift in Sources */,
-				B7E98D10291BBC4600652D77 /* UITableView+ApplyStyleTests.swift in Sources */,
-				B7E98D0B291BBC4600652D77 /* UITextField+ApplyStyleTests.swift in Sources */,
 				B7E98CFA291BBC4600652D77 /* ApplyStyle.swift in Sources */,
 				B7E98CFC291BBC4600652D77 /* UICollectionView+ApplyStyle.swift in Sources */,
 				B7E98D06291BBC4600652D77 /* CALayer+ApplyStyle.swift in Sources */,
 				B7E98D01291BBC4600652D77 /* UIControl+ApplyStyle.swift in Sources */,
-				B7E98D0E291BBC4600652D77 /* UIStackView+ApplyStyleTests.swift in Sources */,
-				B7E98D09291BBC4600652D77 /* UIImage+.swift in Sources */,
 				B7E98CFD291BBC4600652D77 /* UILabel+ApplyStyle.swift in Sources */,
 				B7E98D04291BBC4600652D77 /* UISlider+ApplyStyle.swift in Sources */,
 			);
@@ -598,7 +522,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ApplyStyleKit/Info.plist;
+				INFOPLIST_FILE = Sources/ApplyStyleKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -625,7 +549,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ApplyStyleKit/Info.plist;
+				INFOPLIST_FILE = Sources/ApplyStyleKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -646,7 +570,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 653H53HHBU;
-				INFOPLIST_FILE = ApplyStyleKitTests/Info.plist;
+				INFOPLIST_FILE = Tests/ApplyStyleKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,7 +589,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 653H53HHBU;
-				INFOPLIST_FILE = ApplyStyleKitTests/Info.plist;
+				INFOPLIST_FILE = Tests/ApplyStyleKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
